@@ -2,7 +2,19 @@
 
 {% block content %}
 <h1>Compound Interest Calculator</h1>
-<form>
-    <input type="text">Goal</input>
+<form method="post" action="compound_interest">
+    <label for="goal">Goal</label>
+    <input type="text" id="goal" value=""><br>
+    <label for="initial_amount">Initial Amount</label>
+    <input type="text" id="initial_amount" value=""><br>
+    <label for="monthly_rate">Monthly Interest Rate</label>
+    <input type="text" id="monthly_rate" value=""><br>
+    <label for="monthly_contribution">Monthly Contribution</label>
+    <input type="text" id="monthly_contribution" value=""><br>
+    <label for="months">Number of Months</label>
+    <input type="text" id="months" value=""><br>
+    <label for="final_amount">Final Amount</label>
+    <input type="text" id="final_amount" value=""><br>
+    <button type="submit">Submit</button>
 </form>
 {% endblock %}
