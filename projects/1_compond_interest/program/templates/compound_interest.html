@@ -4,17 +4,20 @@
 <h1>Compound Interest Calculator</h1>
 <form method="post" action="compound_interest">
     <label for="goal">Goal</label>
-    <input type="text" id="goal" value=""><br>
+    <input type="text" id="goal" name="goal" value=""><br>
     <label for="initial_amount">Initial Amount</label>
-    <input type="text" id="initial_amount" value=""><br>
+    <input type="text" id="initial_amount" name="initial_amount" value=""><br>
     <label for="monthly_rate">Monthly Interest Rate</label>
-    <input type="text" id="monthly_rate" value=""><br>
-    <label for="monthly_contribution">Monthly Contribution</label>
-    <input type="text" id="monthly_contribution" value=""><br>
+    <input type="text" id="monthly_rate" name="monthly_rate" value=""><br>
     <label for="months">Number of Months</label>
-    <input type="text" id="months" value=""><br>
-    <label for="final_amount">Final Amount</label>
-    <input type="text" id="final_amount" value=""><br>
+    <input type="text" id="months" name="months" value=""><br>
     <button type="submit">Submit</button>
 </form>
+{% if gap %}
+<p>Gap: {{ gap }}</p>
+{% endif %}
+{% if monthly_deposit %}
+<p>Monthly deposit: {{ monthly_deposit }}</p>
+{% endif %}
+
 {% endblock %}
