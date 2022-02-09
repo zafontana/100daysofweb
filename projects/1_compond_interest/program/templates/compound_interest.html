@@ -3,14 +3,12 @@
 {% block content %}
 <h1>Compound Interest Calculator</h1>
 <form method="post" action="compound_interest">
-    <label for="goal">Goal</label>
-    <input type="text" id="goal" name="goal" value=""><br>
-    <label for="initial_amount">Initial Amount</label>
-    <input type="text" id="initial_amount" name="initial_amount" value=""><br>
-    <label for="monthly_rate">Monthly Interest Rate</label>
-    <input type="text" id="monthly_rate" name="monthly_rate" value=""><br>
-    <label for="months">Number of Months</label>
-    <input type="text" id="months" name="months" value=""><br>
+    <div class="form-group">
+        <input type="number" id="goal" name="goal" value="" required placeholder=" Goal" class="form-control"><br>
+        <input type="number" id="initial_amount" name="initial_amount" value="" required placeholder=" Initial Amount" class="form-control"><br>
+        <input type="number" id="monthly_rate" name="monthly_rate" value="" required placeholder=" Monthly Interest Rate" class="form-control"><br>
+        <input type="number" id="months" name="months" value="" required placeholder=" Number of Months" class="form-control"><br>
+    </div>
     <button type="submit">Submit</button>
 </form>
 {% if gap %}

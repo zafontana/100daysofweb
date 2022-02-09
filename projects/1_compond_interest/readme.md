@@ -19,9 +19,10 @@ https://www.investor.gov/financial-tools-calculators/calculators/savings-goal-ca
 ## Other references
 - https://python-adv-web-apps.readthedocs.io/en/latest/flask_forms.html#introduction
 - https://python.plainenglish.io/6-short-python-scripts-to-super-power-and-simplify-your-personal-finances-7ec134d74a01
+- bootstrap
 
 
-## Status after Chapter 1 (days 1-4)
+## Status after Chapter 2 (days 1-4)
 - lost a lot of time trying to run flask with windows, still not sure what's going on and why dotenv doesn't work
 - lost a lot of time with navbar and styles without any improvement
 - the calculation itself was wrong on day 3, but it was quite easy on day 4 after I found some good examples
