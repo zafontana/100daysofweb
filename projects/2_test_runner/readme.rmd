@@ -1,0 +1,13 @@
+I'll the using the HTML days to mock some of the project ideas I had in the past and hopefully further down the line I'll be able to come back and work on them.
+
+One of those ideas would be a frontend to Behave/Cucumber test runner and other improvements, such as parallel running (there's a library for that, but it stopped being maintained). In many instances in my career as a QA engineer, I've needed more than the currently available free libraries could provide, but less than what paid tools would be good for. If this ends up resulting in something sharable and usable, it's intended to be that sweet stop in between, where we get more functionality and more flexibility too.
+
+#### Day 1 (5/100)
+Brainstorming some pages while I learn more HTML and CSS.
+Done:
+- using bootstrap so it doesn't look too bad
+- page to select tests to run
+- page to add tests
+
+To do:
+- write some requirements for other pages
