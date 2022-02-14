@@ -1,0 +1,41 @@
+[{
+  "id": 1,
+  "suite_name": "eget nunc donec",
+  "suite_description": null
+}, {
+  "id": 2,
+  "suite_name": "vel pede morbi porttitor lorem",
+  "suite_description": "Praesent lectus."
+}, {
+  "id": 3,
+  "suite_name": "convallis morbi odio odio elementum",
+  "suite_description": "Nulla nisl. Nunc nisl."
+}, {
+  "id": 4,
+  "suite_name": "in tempus sit amet",
+  "suite_description": null
+}, {
+  "id": 5,
+  "suite_name": "gravida sem",
+  "suite_description": null
+}, {
+  "id": 6,
+  "suite_name": "fringilla rhoncus mauris enim leo",
+  "suite_description": null
+}, {
+  "id": 7,
+  "suite_name": "magna at nunc",
+  "suite_description": null
+}, {
+  "id": 8,
+  "suite_name": "potenti cras in purus eu",
+  "suite_description": null
+}, {
+  "id": 9,
+  "suite_name": "potenti",
+  "suite_description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+}, {
+  "id": 10,
+  "suite_name": "consectetuer eget rutrum at",
+  "suite_description": null
+}]
