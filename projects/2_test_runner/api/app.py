@@ -9,7 +9,7 @@ from apistar.http import JSONResponse
 # helpers
 
 def _load_suites_data():
-    with open('suites.json') as f:
+    with open('suites.json', 'r') as f:
         suites = json.loads(f.read())
         return {suite["id"]: suite for suite in suites}
 
